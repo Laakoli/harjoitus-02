@@ -1,0 +1,34 @@
+Alku
+	Anna A ,B, C;
+	Jos (A>B ja A>C) 
+		tosi
+			Tulosta A;
+			Jos (B>C) 
+				tosi
+					Tulosta B;
+					Tulosta C;
+				epätosi	
+					Tulosta C;
+					Tulosta B;
+	Jos (B>A ja B>C) 
+		tosi
+			Tulosta B;
+			Jos (A>C) 
+				tosi
+					Tulosta A;
+					Tulosta C;
+				epätosi	
+					Tulosta C;
+					Tulosta A;
+	Jos (C>B ja C>A) 
+		tosi
+			Tulosta C;
+			Jos (A>B) 
+				tosi
+					Tulosta A;
+					Tulosta B;
+				epätosi	
+					Tulosta B;
+					Tulosta A;
+Loppu				
+		
